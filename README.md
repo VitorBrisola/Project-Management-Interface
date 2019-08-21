@@ -14,6 +14,21 @@ the connection between the tasks and the real project.
 The application first intent  is the management of tasks. 
 Each task can have 3 states:
 
-    - To-do: Where the task is still to be started.
-    - In Progress:
-    - Done:
+    * To-do : Tasks are still to be started.
+    * In Progress: Tasks are still being worked on.
+    * Done: Tasks that are already completed.
+
+>The idea is to build an terminal interface that makes possible to manage tasks and make some task as commands by automatizing them.
+
+## Initial version
+
+The main idea is to write down the app name on terminal and create an script interface:
+
+    >> Project-Manager App Started!
+    >> ............................
+    >> create-project 'project_name_1'
+    'project_name' created.
+    >> use 'project_name_1'
+    >> create-task 'task_name_1'
+    'task_name_1' initiated as to-do in 'project_name_1'
+    >> 
